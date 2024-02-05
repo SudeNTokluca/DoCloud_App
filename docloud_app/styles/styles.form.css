@@ -1,0 +1,62 @@
+.card{
+    border-radius: 50px;
+    width: 550px; 
+}
+.box{
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    border-color: white;
+    height: 60px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.button{
+    background-color: #293664
+}
+.button:hover{
+    background-color: #d9d9d9;
+}
+.half{
+    width: 240px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.circle{
+    background-color: #d9d9d9;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+.w_header{
+color: #293664;
+margin-bottom: 30px;
+}
+.footer{
+    color: #293664;
+    font-size: xx-small;
+    text-align: center;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.inputs{
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    height: 60px;
+    margin-bottom: 10px;
+    width: 450px;
+    border-color: #d9d9d9;
+}
+.inputs:focus{
+    background-color:  #d9d9d9;
+    
+}
+
+
+.icon-field{
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+}

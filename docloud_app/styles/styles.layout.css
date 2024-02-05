@@ -1,0 +1,54 @@
+
+  .current{
+    background-color: #282364;
+  }
+  .not-current:hover{
+    background-color: #282364;
+    color: white;
+  }
+  .not-current:hover .purple{
+    color: white ;
+  }
+  .not-current:hover .usedStorage{
+   background-color:#8480b3b9 ;
+  }
+  .not-current{
+    color: #282364; 
+  }
+  .left-side-container {
+    display: flex;
+    height: 100%;
+  
+  }
+  .left-sidebar {
+    width: 200px;
+    background-color: #38219463;
+    padding: 20px;
+    border-bottom-left-radius:50px;
+    border-top-left-radius: 50px;
+    margin-bottom: 0px;
+    
+  }
+  .page-refer{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+  }
+  .iconUser{
+    width: 30px;
+    height: 30px;
+  
+  }
+  .left-end{
+    align-self: flex-end
+  }
+  .storage{
+    background-color: white;
+    border-radius: 50px;
+    height: 10px ;
+    width: 150px;
+    flex-shrink: 0;
+  }
+  .usedStorage{
+    background-color: #282364 ;
+  }

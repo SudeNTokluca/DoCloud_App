@@ -1,0 +1,159 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+html, body{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(64deg, #282364 0%, #FFF 96%, rgba(255, 255, 255, 0.00) 100%);
+  min-width: 900px ;
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-width: 900px ;
+}
+.mainScreen{
+  width: 90%;
+  height: 90%;
+  min-width: 900px ;
+}
+.mainPage{
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.subScreen{
+  min-width: 700px ;
+  height: 90%;
+  border-radius: 50px;
+}
+ul, ol {
+    list-style: none;
+  
+  }
+a {
+    text-decoration: none;
+  }
+.purple{
+  color: #282364;
+}
+.title {
+  color: #282364 !important;
+  border-bottom: 2px solid #282364;
+  padding-bottom: 10px;
+  margin-bottom: 20px; 
+  width: 100%;
+}
+.icons{
+  width: 25px;
+  height: 25px;
+  color: #282364 ;
+  margin: 15px;
+
+}
+.icons.active {
+  color: white;
+  cursor: pointer;
+}
+.file_icons{
+  width: 15px;
+  height: 15px;
+  color: #282364;
+}
+.container-cover{
+  width: 95%;
+  height: 95%;
+  padding: 15px;
+  min-width: 650px;
+  /*padding-right: 0px;*/
+  border-radius: 50px;
+  background-color: #5f4bb12d;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  min-width: 600px;
+}
+.subContainer{
+  width: 100%;
+  height: 90%;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+.subContainer::-webkit-scrollbar {
+  width: 9px; /* scrollbar genişliği */
+
+}
+
+.subContainer::-webkit-scrollbar-thumb {
+  background-color: #282364; /* scrollbar thumb arka plan rengi */
+  border-radius: 6px; /* scrollbar thumb kenar yarıçapı */
+  height:60px ;
+}
+
+.subContainer::-webkit-scrollbar-track {
+  background-color: white; /* scrollbar track arka plan rengi */
+  border-radius: 6px; /* scrollbar track kenar yarıçapı */
+
+}
+
+.search-input{
+  border-radius: 50px;
+  border: none;
+
+}
+
+.search-input:hover{
+  border:none !important;
+  color: #282364;
+}
+.dosyaYuklemeAlani{
+    border: 2px #282364;
+    border-radius: 50px;
+    background-color: white;
+    color: #282364;
+    height: 300px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.icon-download{
+  height: 200px;
+  width: 200px;
+}
+
+.calendar-popup {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-modal {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  box-shadow: none;
+  
+}
+
+.link{
+  color: white;
+  text-decoration: 'none'
+}
+
+.icon-buttons{
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 50px ;
+}
+.icon-buttons:hover{
+  background-color: #d9d9d9 !important;
+}
+.star-icon{
+ background-color:transparent !important;
+ border: none 
+}
